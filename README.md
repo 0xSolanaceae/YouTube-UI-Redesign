@@ -2,7 +2,7 @@
 
 YouTube redesign, inspired by Juxtopposed.
 
-Source: <https://www.youtube.com/watch?v=OUM6X ||mhViN4>
+Source: <https://www.youtube.com/watch?v=OUM6XmhViN4>
 
 (mobile layout not changed, :( maybe in the future)
 
