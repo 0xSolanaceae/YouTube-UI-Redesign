@@ -4,14 +4,14 @@
     "version": "1.0",
     "description": "Replaces YouTube icons with Google Material Icons",
     "icons": {
-      "48": "icon.svg",
-      "128": "icon.svg"
+      "48": "assets/icon.svg",
+      "128": "assets/icon.svg"
     },
     "content_scripts": [
       {
         "matches": ["*://*.youtube.com/*"],
-        "js": ["iconConfig.js", "content.js"],
-        "css": ["styles.css"]
+        "js": ["js/iconConfig.js", "content.js"],
+        "css": ["css/styles.css"]
       }
     ],
     "web_accessible_resources": [
