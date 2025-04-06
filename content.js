@@ -49,28 +49,23 @@ function replaceSearchIcon() {
 }
 
 function waitForYouTubeAndReplace() {
-    // Initial replacement after page load
     setTimeout(() => {
         debouncedReplaceAllIcons();
     }, 1000);
     
-    // Less frequent interval
     const intervalId = setInterval(() => {
         debouncedReplaceAllIcons();
         
-        // Stop the interval after 20 seconds, most elements should be loaded by then
         if (document.querySelector('[data-icon-replaced]')) {
             setTimeout(() => clearInterval(intervalId), 20000);
         }
     }, 5000);
     
-    // More targeted mutation observer
     const observer = new MutationObserver((mutations) => {
         let shouldReplace = false;
         
         for (const mutation of mutations) {
             if (mutation.addedNodes.length > 0) {
-                // Check if any added nodes contain elements we care about
                 for (const node of mutation.addedNodes) {
                     if (node.nodeType === Node.ELEMENT_NODE) {
                         for (const config of Object.values(ICON_CONFIG)) {
@@ -90,7 +85,6 @@ function waitForYouTubeAndReplace() {
         }
     });
     
-    // Observe specific elements instead of the entire body when possible
     const observeTarget = document.querySelector('ytd-app') || document.body;
     if (observeTarget) {
         observer.observe(observeTarget, { childList: true, subtree: true });

@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "YouTube Material Icons",
+    "name": "YouTube UI Redesign",
     "version": "1.0",
-    "description": "Replaces YouTube icons with Google Material Icons",
+    "description": "Inspired by Juxtopposed's YouTube UI Redesign, this extension implements her design!.",
     "icons": {
       "48": "assets/icon.svg",
       "128": "assets/icon.svg"
