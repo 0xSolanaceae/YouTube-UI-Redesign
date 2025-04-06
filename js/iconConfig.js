@@ -59,6 +59,14 @@ const ICON_CONFIG = {
         selector: 'a[title="Playlists"]',
         materialIconName: 'playlist_play'
     },
+
+    // video player icons, not implemented yet
+    /*
+    settings: {
+        selector: 'button[aria-label="Settings"]',
+        materialIconName: 'settings'
+    },
+    */
 };
 
 window.ICON_CONFIG = ICON_CONFIG;

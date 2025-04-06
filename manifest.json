@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "YouTube UI Redesign",
     "version": "1.0",
-    "description": "Inspired by Juxtopposed's YouTube UI Redesign, this extension implements her design!",
+    "description": "YouTube redesign, inspired by Juxtopposed",
     "icons": {
       "48": "assets/icon.svg",
       "128": "assets/icon.svg"
