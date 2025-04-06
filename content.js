@@ -44,10 +44,6 @@ function replaceAllIcons() {
     });
 }
 
-function replaceSearchIcon() {
-    replaceIcon(ICON_CONFIG.search);
-}
-
 function waitForYouTubeAndReplace() {
     setTimeout(() => {
         debouncedReplaceAllIcons();
