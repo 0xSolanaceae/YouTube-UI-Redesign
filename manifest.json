@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Material Icons",
+    "version": "1.0",
+    "description": "Replaces YouTube icons with Google Material Icons",
+    "icons": {
+      "48": "icon.svg",
+      "128": "icon.svg"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["iconConfig.js", "content.js"],
+        "css": ["styles.css"]
+      }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": ["fonts/*", "*.woff2"],
+        "matches": ["*://*.youtube.com/*"]
+      }
+    ],
+    "host_permissions": [
+      "https://fonts.gstatic.com/*"
+    ]
+}
