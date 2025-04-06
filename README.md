@@ -9,8 +9,8 @@ Source: <https://www.youtube.com/watch?v=OUM6XmhViN4>
 ## Checkbox Legend
 
 - [x] Implemented
-- [*] Planned
-- [-] Requires backend changes by Google (not feasible to implement)
+- [ ] Planned
+-  X --> Requires backend changes by Google (not feasible to implement)
 
 ## Features in the Video
 
@@ -30,12 +30,12 @@ Source: <https://www.youtube.com/watch?v=OUM6XmhViN4>
 ### Explore
 
 - [ ] Move trending videos to the top of the explore page
-- [-] Add technology explore category
+-  X --> Add technology explore category
 
 ### Home
 
 - [ ] Personalized tag modification
-- [-] "In case you missed" notifications
+-  X --> "In case you missed" notifications
 
 ### Video
 
@@ -43,44 +43,44 @@ Source: <https://www.youtube.com/watch?v=OUM6XmhViN4>
 - [ ] Move video statistics up to the thumbs up/down button and increase margins between lines
 - [ ] Fix the watch-later button by adding it to a list that reminds you
 - [ ] Bring back youtube dislikes (using this: <https://www.returnyoutubedislike.com/>)
-- [-] Bring back comment dislikes
+-  X --> Bring back comment dislikes
 - [ ] Add in comment threads
 - [ ] Make the content creator's comment show up above all others
-- [-] Add comment section filters
-- [-] Add comment searchbox
+-  X --> Add comment section filters
+-  X --> Add comment searchbox
 - [ ] Expand live chat bar to take up the whole page
 - [ ] Add tabs to switch to transcripts or suggestions
 - [ ] Remove chatters profile pictures and replace the color of their usernames with the color of their profile picture
 - [ ] Add a chat button that reveals the youtube live chat while in full screen mode, along with suggestions
 - [ ] Drop down video quality settings outside of the menu and into the player
 - [ ] Merge drop down options and open them in a new overlay
-- [-] Add audio channel selector
+-  X --> Add audio channel selector
 - [ ] Add sticky-on-scroll video option
 
 ### Channel
 
 - [ ] Pull profile picture up and organize text and buttons
 - [ ] Bring back channels tab and about page
-- [-] Add "in-case-you-missed" page to main channel page
-- [-] Add a section for the creator to make posts
+-  X --> Add "in-case-you-missed" page to main channel page
+-  X --> Add a section for the creator to make posts
 
 ### Subs
 
 - [ ] Show number of subscriptions
 - [ ] Show subscriptions in grid form and/or list form
 - [ ] Add a dropdown to see the latest content from each channel
-- [-] Add a timeline of subscription video releases
+-  X --> Add a timeline of subscription video releases
 - [ ] Channel collections
 
 ### Library
 
 - [ ] Playlist drop downs
 - [ ] Playlist header redesign
-- [-] Playlist filters and search bar
+-  X --> Playlist filters and search bar
 
 ### Sharing
 
-- [-] Communal notifications
+-  X --> Communal notifications
 
 ### Shorts
 
@@ -88,9 +88,9 @@ No recommendations here.
 
 ### Search
 
-- [-] Have youtube searches only return search results, not recommendations (my personal least favorite issue)
-- [-] Move search filters and make them more useful
+-  X --> Have youtube searches only return search results, not recommendations (my personal least favorite issue)
+-  X --> Move search filters and make them more useful
 
 ### Bonus Stuff
 
-- [-] TV-like youtube content
+-  X --> TV-like youtube content
