@@ -157,6 +157,32 @@ const ICON_CONFIG = {
         selector: 'a[title="Send feedback"]',
         materialIconName: 'feedback'
     },
+
+    // shorts controls
+    like: {
+        selector: 'button[aria-label="I like this"]',
+        materialIconName: 'thumb_up'
+    },
+    dislike: {
+        selector: 'button[aria-label="I dislike this"]',
+        materialIconName: 'thumb_down'
+    },
+    comments: {
+        selector: 'button[aria-label^="View"]',
+        materialIconName: 'comment'
+    },
+    share: {
+        selector: 'button[aria-label="Share"]',
+        materialIconName: 'share'
+    },
+    nextVideo: {
+        selector: 'button[aria-label="Next video"]',
+        materialIconName: 'skip_next'
+    },
+    previousVideo: {
+        selector: 'button[aria-label="Previous video"]',
+        materialIconName: 'skip_previous'
+    },
     // video player icons, not implemented yet
     /*
     settings: {
