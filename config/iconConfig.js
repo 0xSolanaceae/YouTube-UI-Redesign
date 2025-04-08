@@ -23,6 +23,10 @@ const ICON_CONFIG = {
         selector: 'a[title="Subscriptions"]',
         materialIconName: 'subscriptions'
     },
+    showMore: {
+        selector: 'a[title="Show more"]',
+        materialIconName: 'expand_more'
+    },
     shorts: {
         selector: 'a[title="Shorts"]',
         materialIconName: 'play_circle'
