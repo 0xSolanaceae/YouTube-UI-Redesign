@@ -10,8 +10,8 @@
     "content_scripts": [
       {
         "matches": ["*://*.youtube.com/*"],
-        "js": ["js/iconConfig.js", "content.js"],
-        "css": ["css/styles.css"]
+        "js": ["config/iconConfig.js", "content.js"],
+        "css": ["styles/fontLoader.css"]
       }
     ],
     "web_accessible_resources": [
