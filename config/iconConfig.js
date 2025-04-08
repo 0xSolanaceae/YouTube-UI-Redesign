@@ -31,6 +31,10 @@ const ICON_CONFIG = {
         selector: 'a[title="Library"]',
         materialIconName: 'video_library'
     },
+    you: {
+        selector: 'a[title="You"]',
+        materialIconName: 'account_circle'
+    },
     history: {
         selector: 'a[title="History"]',
         materialIconName: 'history'
