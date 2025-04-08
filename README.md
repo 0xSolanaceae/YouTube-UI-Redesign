@@ -1,97 +1,149 @@
-# Project Redesign
+# YouTube UI Redesign
 
-YouTube redesign, inspired by Juxtopposed.
+**Inspired by [Juxtopposed's video](https://www.youtube.com/watch?v=OUM6XmhViN4)**  
 
-Source: <https://www.youtube.com/watch?v=OUM6XmhViN4>
+> _Note: Mobile layout is **unchanged** (maybe in the future!)_
 
-(mobile layout not changed, :( maybe in the future)
+---
 
-## Checkbox Legend
+## Progress Tracker
 
-- [x] Implemented
-- [ ] Planned
+```md
+✅ Implemented     1 / 39 
+❌ Not Feasible    15
+```
 
-X || Requires backend changes by Google (not feasible to implement)
+---
 
-## Features in the Video
+## Legend
 
-### Branding
+- ✅ **Implemented**
+- 🕓 **Planned**
+- ❌ **Not feasible** (Requires backend changes by Google) :(
 
-- [x] Switch to Google's material icons
-- [ ] YouTube's switch to new channels is inconsistent
+---
 
-### Layout
+## 🔹 Branding
 
-- [ ] Move explore options to the top of the left panel
-- [ ] Remove duplicates and move settings to the topbar
-- [ ] Merge duplicate subscription pages into a dropbar in the left panel
-- [ ] Replace blue icons notification icons next to subscriptions to numerical notifications
-- [ ] Get the YouTuber title card when hovering over subscription menu
+| Feature | Status |
+|--------|--------|
+| Switch to Google's material icons | ✅ |
+| Fix inconsistency in new channel switch | 🕓 |
 
-### Explore
+---
 
-- [ ] Move trending videos to the top of the explore page
-X || Add technology explore category
+## 🔹 Layout
 
-### Home
+| Feature | Status |
+|--------|--------|
+| Move Explore options to the top of the left panel | 🕓 |
+| Remove duplicates and move Settings to the top bar | 🕓 |
+| Merge duplicate Subscription pages into a dropbar | 🕓 |
+| Replace blue icons with numerical notifications | 🕓 |
+| Show YouTuber title card on hover in Subscription menu | 🕓 |
 
-- [ ] Personalized tag modification
-X || "In case you missed" notifications
+---
 
-### Video
+## 🔹 Explore Page
 
-- [ ] Remove channel name duplication
-- [ ] Move video statistics up to the thumbs up/down button and increase margins between lines
-- [ ] Fix the watch-later button by adding it to a list that reminds you
-- [ ] Bring back youtube dislikes (using this: <https://www.returnyoutubedislike.com/>)
-X || Bring back comment dislikes
-- [ ] Add in comment threads
-- [ ] Make the content creator's comment show up above all others
-X || Add comment section filters
-X || Add comment searchbox
-- [ ] Expand live chat bar to take up the whole page
-- [ ] Add tabs to switch to transcripts or suggestions
-- [ ] Remove chatters profile pictures and replace the color of their usernames with the color of their profile picture
-- [ ] Add a chat button that reveals the youtube live chat while in full screen mode, along with suggestions
-- [ ] Drop down video quality settings outside of the menu and into the player
-- [ ] Merge drop down options and open them in a new overlay
-X || Add audio channel selector
-- [ ] Add sticky-on-scroll video option
+| Feature | Status |
+|--------|--------|
+| Move Trending videos to the top | 🕓 |
+| Add "Technology" Explore category | ❌ |
 
-### Channel
+---
 
-- [ ] Pull profile picture up and organize text and buttons
-- [ ] Bring back channels tab and about page
-X || Add "in-case-you-missed" page to main channel page
-X || Add a section for the creator to make posts
+## 🔹 Home Page
 
-### Subs
+| Feature | Status |
+|--------|--------|
+| Personalized tag modification | 🕓 |
+| “In case you missed” notifications | ❌ |
 
-- [ ] Show number of subscriptions
-- [ ] Show subscriptions in grid form and/or list form
-- [ ] Add a dropdown to see the latest content from each channel
-X || Add a timeline of subscription video releases
-- [ ] Channel collections
+---
 
-### Library
+## 🔹 Video Page
 
-- [ ] Playlist drop downs
-- [ ] Playlist header redesign
-X || Playlist filters and search bar
+| Feature | Status |
+|--------|--------|
+| Remove duplicate channel name | 🕓 |
+| Move video stats up near thumbs and improve spacing | 🕓 |
+| Fix "Watch Later" with better reminder system | 🕓 |
+| Restore YouTube dislikes ([Return YouTube Dislike](https://www.returnyoutubedislike.com/)) | 🕓 |
+| Bring back comment dislikes | ❌ |
+| Add comment threads | 🕓 |
+| Pin creator’s comment above all others | 🕓 |
+| Add comment section filters | ❌ |
+| Add comment search box | ❌ |
+| Expand live chat to full page width | 🕓 |
+| Add tabs for transcripts and suggestions | 🕓 |
+| Replace profile pics in chat with username colors | 🕓 |
+| Add chat button for fullscreen live viewing | 🕓 |
+| Move quality selector outside menu and into player | 🕓 |
+| Merge dropdown settings into overlay interface | 🕓 |
+| Add audio channel selector | ❌ |
+| Add sticky video option during scroll | 🕓 |
 
-### Sharing
+---
 
-X || Communal notifications
+## 🔹 Channel Page
 
-### Shorts
+| Feature | Status |
+|--------|--------|
+| Pull profile pic up and organize layout | 🕓 |
+| Restore Channels tab and About page | 🕓 |
+| Add “In case you missed” to channel | ❌ |
+| Add creator post section | ❌ |
 
-No recommendations here.
+---
 
-### Search
+## 🔹 Subscriptions
 
-X || Have youtube searches only return search results, not recommendations (my personal least favorite issue)
-X || Move search filters and make them more useful
+| Feature | Status |
+|--------|--------|
+| Show number of subscriptions | 🕓 |
+| Show subs in grid and/or list form | 🕓 |
+| Dropdown to view latest content by channel | 🕓 |
+| Add timeline of sub video releases | ❌ |
+| Channel collections feature | 🕓 |
 
-### Bonus Stuff
+---
 
-X || TV-like youtube content
+## 🔹 Library Page
+
+| Feature | Status |
+|--------|--------|
+| Playlist dropdowns | 🕓 |
+| Playlist header redesign | 🕓 |
+| Playlist filters & search bar | ❌ |
+
+---
+
+## 🔹 Sharing & Notifications
+
+| Feature | Status |
+|--------|--------|
+| Communal notifications | ❌ |
+
+---
+
+## 🔹 Shorts
+
+> No suggestions or changes planned for Shorts.
+
+---
+
+## 🔹 Search
+
+| Feature | Status |
+|--------|--------|
+| Only return actual search results (not recommendations) | ❌ |
+| Improve location and usefulness of search filters | ❌ |
+
+---
+
+## 🔹 Bonus
+
+| Feature | Status |
+|--------|--------|
+| TV-like YouTube content experience | ❌ |
