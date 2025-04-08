@@ -1,12 +1,28 @@
 function preloadFont() {
     const link = document.createElement('link');
     link.rel = 'preload';
-    link.href = 'https://fonts.gstatic.com/s/materialsymbolsoutlined/v86/kJEhBvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oFsLjBuVY.woff2';
+    link.href = chrome.runtime.getURL('fonts/material-symbols.woff2');
     link.as = 'font';
     link.type = 'font/woff2';
     link.crossOrigin = 'anonymous';
+    
+    link.onload = () => {
+        setTimeout(replaceAllIcons, 50);
+    };
 
     document.head.appendChild(link);
+    
+    const style = document.createElement('style');
+    style.textContent = `
+        @font-face {
+            font-family: 'Material Symbols Outlined';
+            font-style: normal;
+            font-weight: 400;
+            src: url('${chrome.runtime.getURL('fonts/material-symbols.woff2')}') format('woff2');
+            font-display: swap;
+        }
+    `;
+    document.head.appendChild(style);
 }
 
 function replaceIcon(config) {
