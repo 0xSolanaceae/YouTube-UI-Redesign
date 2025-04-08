@@ -27,6 +27,10 @@
   justify-content: center;
 }
 
+:root:not([dark]) .material-symbols-outlined {
+  color: black;
+}
+
 button:hover .material-symbols-outlined {
   color: #fff;
 }
