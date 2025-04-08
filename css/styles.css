@@ -21,7 +21,8 @@
   font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
   
-  color: #aaa;
+  /* Change this color to make icons more visible */
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;

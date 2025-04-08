@@ -1,4 +1,8 @@
 const ICON_CONFIG = {
+    menu: {
+        selector: 'button[aria-label="Guide"]',
+        materialIconName: 'menu'
+    },
     search: {
         selector: 'button[aria-label="Search"]',
         materialIconName: 'search'
@@ -60,6 +64,95 @@ const ICON_CONFIG = {
         materialIconName: 'playlist_play'
     },
 
+    // explore icons
+    trending: {
+        selector: 'a[title="Trending"]',
+        materialIconName: 'trending_up'
+    },
+    shopping: {
+        selector: 'a[title="Shopping"]',
+        materialIconName: 'shopping_cart'
+    },
+    music: {
+        selector: 'a[title="Music"]',
+        materialIconName: 'music_note'
+    },
+    moviesAndTV: {
+        selector: 'a[title="Movies & TV"]',
+        materialIconName: 'movie'
+    },
+    live: {
+        selector: 'a[title="Live"]',
+        materialIconName: 'live_tv'
+    },
+    gaming: {
+        selector: 'a[title="Gaming"]',
+        materialIconName: 'sports_esports'
+    },
+    news: {
+        selector: 'a[title="News"]',
+        materialIconName: 'newspaper'
+    },
+    sports: {
+        selector: 'a[title="Sports"]',
+        materialIconName: 'sports'
+    },
+    courses: {
+        selector: 'a[title="Courses"]',
+        materialIconName: 'school'
+    },
+    fashionandBeauty: {
+        selector: 'a[title="Fashion & Beauty"]',
+        materialIconName: 'style'
+    },
+    podcasts: {
+        selector: 'a[title="Podcasts"]',
+        materialIconName: 'podcasts'
+    },
+    playables: {
+        selector: 'a[title="Playables"]',
+        materialIconName: 'play_circle'
+    },
+
+    // more from youtube
+    youtubePremium: {
+        selector: 'a[title="YouTube Premium"]',
+        materialIconName: 'star'
+    },
+    youtubeStudio: {
+        selector: 'a[title="YouTube Studio"]',
+        materialIconName: 'dashboard'
+    },
+    youtubeTV: {
+        selector: 'a[title="YouTube TV"]',
+        materialIconName: 'tv'
+    },
+    youtubeMusic: {
+        selector: 'a[title="YouTube Music"]',
+        materialIconName: 'music_note'
+    },
+    youtubeKids: {
+        selector: 'a[title="YouTube Kids"]',
+        materialIconName: 'child_care'
+    },
+
+    // extras 
+    settings: {
+        selector: 'a[title="Settings"]',
+        materialIconName: 'settings'
+    },
+    reportHistory: {
+        selector: 'a[title="Report history"]',
+        materialIconName: 'report_problem'
+    },
+    help: {
+        selector: 'a[title="Help"]',
+        materialIconName: 'help'
+    },
+    sendFeedback: {
+        selector: 'a[title="Send feedback"]',
+        materialIconName: 'feedback'
+    },
     // video player icons, not implemented yet
     /*
     settings: {
